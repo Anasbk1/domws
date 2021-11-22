@@ -1,0 +1,101 @@
+.main-header img{
+    width:250px;
+    height: 35px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    color: #ababab;
+    font-weight: bold;
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
+}
+.main-nav ul{
+    display: flex;
+    
+}
+.main-nav li{
+    list-style: none;
+    margin: 5px;
+}
+.main-nav a{
+    text-decoration: none;
+}
+.main-nav .is-current{
+    color:#00b39b;
+}
+.health-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 10%;
+}
+.health-intro h1{
+    color: #00b39b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 300px;
+    padding: 2%;
+}
+.health-intro div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.health-intro div p{
+    width: 45%;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif ;
+}
+.health-intro img{
+    width: 50px;
+    height: 50px;
+
+}
+.countries h1{
+    color: #00b39b;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+}
+.countries p{
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    width: 70%;
+    margin-left: 15%; 
+    font-weight: bold;
+}
+.image{ 
+    width:min-content;
+    margin:1%;
+}
+.image img{
+    border-radius: 10px;
+    width: 300px;
+}
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.image div{
+    display: flex;
+    justify-content: space-between;
+}
+.image:hover{
+    box-shadow: 10px 10px black;
+}
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+
+    }
+    .page-content header {
+        margin-top: 10%;
+        max-width: 100%;
+
+    }
+}
